@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CFMB Home-Page</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="CSS/navbar.css">
     <link rel="icon" type="image/jpg" href="images/logo.jpg"/>
 
@@ -107,26 +108,60 @@
         </section>
     </main>
     
-
-
     <footer class="footer">
-        
+        <section class="link"> 
+            <div>
+                <h1>Quick Link</h1>
+                <ul style="padding-left: 20px; font-size: 23px;">
+                    <li><a href="career.html">Career</a></li>
+                    <li> <a href="research.html">Research</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li> <a href="faqs.html.html">FAQ's</a></li>
+                </ul>
+            </div>
+            <div>
+                <h1>News and Events</h1>
+                <ul style="padding-left: 20px; font-size: 23px;">
+                    <li><a href="">Lorem ipsum dolor sit amet.</a></li>
+                    <li> <a href="">Lorem ipsum dolor sit.</a></li>
+                    <li><a href="">Lorem ipsum dolor sit amet.</a></li>
+                    <li><a href="">Lorem ipsum dolor sit amet consectetur.</a></li>
+                    <li> <a href="">Lorem ipsum dolor sit amet consectetur.</a></li>
+            </div>
+        </section>
+        <section class="contact">
+            <div>
+                +977 9845247777<br>
+                cfmblab@gmail.com<br>
+                Muktinagar Chowk,<br>
+                Bharatpur-11, Chitwan, Nepal
+            </div>
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.988358760784!2d84.43947463798949!3d27.68675467629345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3994e5471027c9c3%3A0x6674c21b931a917c!2sMLMS%20TRADERS!5e0!3m2!1sen!2snp!4v1686135986511!5m2!1sen!2snp"
+                    width="320" height="160" style="border:3px solid black; border-radius: 20px;;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="smh">
+                <ul>
+                    <li><a href=""><img src="../images/smh/fb.webp" alt="Facebook"></a></li>
+                    <li><a href=""><img src="../images/smh/ig.webp" alt="Instagram"></a></li>
+                    <li><a href=""><img src="../images/smh/in.webp" alt="Linked in"></a></li>
+                    <li><a href=""><img src="../images/smh/yt.webp" alt="youtube"></a></li>
+                    <li><a href=""><img src="../images/smh/tt.webp" alt="tiktok"></a></li>
+                </ul>
+            </div>
+        </section>
     </footer>
-    
-    <script>
-        const footer = document.querySelector(".footer");
-        fetch("HTML/footer.html")
-        .then( res => res.text())
-        .then(data=>{
-        footer.innerHTML = data
-        })
 
+    <script>
         function onClickFunction(){
         document.querySelector(".menu").classList.toggle("cross");
         document.querySelector(".nav-list").classList.toggle("nav-list-shown");
         }
     </script>
-    <!-- <script src="JavaScript/script.js"></script> -->
+    
     
 </body>
 </html>
