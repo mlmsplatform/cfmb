@@ -2,29 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Architects Daughter', cursive; */
+    
 }
-h1{
-    font-family: 'Inconsolata', monospace;
-}
-p{
-    font-family: 'Pacifico', cursive;
-}
+
 .cover img{
     width: 100%;
 }
-
-/* .cover-text{
-    position: absolute;
-    margin-top: 40px;
-    margin-left: 20px;
-    padding: 10px;
-    font-size: 2vw;
-    border: 3px solid black;
-    color: white;
-    background-color: black;
-    border-radius: 20px;
-} */
 
 .main{
     background: rgb(34, 151, 214);    
