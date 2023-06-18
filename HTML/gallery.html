@@ -6,17 +6,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CFMB GALLERY</title>
-    
-    <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../CSS/gallery.css">
     <link rel="icon" type="image/jpg" href="../images/logo.jpg"/>
 </head>
 
 <body>
     <nav class="navbar"></nav>
 
+    <div class="container">
+        <div class="buttons-section">
+            <button class="active" data-name="all">Show All</button>
+            <button data-name="tissue">Plant Tissue Culture</button>
+            <button data-name="cellbank">DNA Banks and Cell Line Banks</button>
+        </div>
+
+        <div class="cards-section">
+            <div data-name="tissue" class="card">
+                <img src="../images/products/1.jpg" alt="">
+                <div class="card-body">
+                    <p class="card-title">Tissue Culture</p>
+                    <span class="card-description">Lorem ipsum dolor sit amet.</span>
+                </div>
+            </div>
+            <div data-name="tissue" class="card">
+                <img src="../images/products/2.jpg" alt="">
+                <div class="card-body">
+                    <p class="card-title">Tissue Culture</p>
+                    <span class="card-description">Lorem ipsum dolor sit amet.</span>
+                </div>
+            </div>
+            <div data-name="tissue" class="card">
+                <img src="../images/products/3.jpg" alt="">
+                <div class="card-body">
+                    <p class="card-title">Tissue Culture</p>
+                    <span class="card-description">Lorem ipsum dolor sit amet.</span>
+                </div>
+            </div>
+            <div data-name="tissue" class="card">
+                <img src="../images/products/4.jpg" alt="">
+                <div class="card-body">
+                    <p class="card-title">Tissue Culture</p>
+                    <span class="card-description">Lorem ipsum dolor sit amet.</span>
+                </div>
+            </div>
+            <div data-name="cellbank" class="card">
+                <img src="../images/products/5.jpg" alt="">
+                <div class="card-body">
+                    <p class="card-title">DNA and Cell Line Banks</p>
+                    <span class="card-description">Lorem ipsum dolor sit amet.</span>
+                </div>
+            </div>
+            <div data-name="cellbank" class="card">
+                <img src="../images/products/6.jpg" alt="">
+                <div class="card-body">
+                    <p class="card-title">DNA and Cell Line Banks</p>
+                    <span class="card-description">Lorem ipsum dolor sit amet.</span>
+                </div>
+            </div>
+            <div data-name="cellbank" class="card">
+                <img src="../images/products/7.jpg" alt="">
+                <div class="card-body">
+                    <p class="card-title">DNA and Cell Line Banks</p>
+                    <span class="card-description">Lorem ipsum dolor sit amet.</span>
+                </div>
+            </div>
+            <div data-name="cellbank" class="card">
+                <img src="../images/products/8.jpg" alt="">
+                <div class="card-body">
+                    <p class="card-title">DNA and Cell Line Banks</p>
+                    <span class="card-description">Lorem ipsum dolor sit amet.</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
     <footer class="footer"></footer>
-    <script src="../JavaScript/script.js"></script>
+    
+    <script src="../JavaScript/gallery.js" defer></script>
+    <script src="../JavaScript/script.js" async></script>
 </body>
 </html>
