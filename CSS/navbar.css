@@ -40,7 +40,7 @@
     color: black;
 }   
 
-@media ( max-width: 920px){
+@media ( max-width: 940px){
 
     .navbar{
         flex-direction: column;
