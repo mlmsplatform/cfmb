@@ -13,7 +13,7 @@
 }
 .logo img{
     margin: 10px;
-    border-radius: 30px;
+    border-radius: 50%;
 }
 
 .nav-list ul{
@@ -21,8 +21,7 @@
 }
 
 .nav-list ul li{
-    display: inline-block;
-    
+    display: inline-block; 
 }
 .nav-list ul li a{
     font-size: 30px;
@@ -45,7 +44,6 @@
     .navbar{
         flex-direction: column;
         height: fit-content;
-        
     }
 
     .navbar1{
@@ -53,10 +51,8 @@
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        
         border-bottom: 1px solid #fff;
     }
-
 
     .nav-list-hide{
         display: none;
@@ -69,6 +65,7 @@
         width: 100%;
         text-align: center;
         background-color: red;
+        border-bottom: 1px solid #fff;
     }
    .nav-list-shown ul {
     flex-direction: column;
@@ -82,7 +79,7 @@
    }
    
    .menu{
-        padding-right: 20px;
+        margin-right: 20px;
         cursor: pointer;
         height: 35px;
         display: flex;
