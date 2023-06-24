@@ -9,7 +9,6 @@
 }
 
 main{
-/*  background: rgb(34, 151, 214);     */
     background: white;
     padding: 10px;
 }
@@ -42,9 +41,7 @@ main p{
 .whoweare img{
     width: 340px;
     border-radius: 20px;
-
 }
-
 
 .tissue-culture-images{
     display: flex;
