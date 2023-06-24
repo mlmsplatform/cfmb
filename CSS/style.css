@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 .cover img{
@@ -51,11 +50,15 @@ main p{
     display: flex;
     margin: 10px 0;
     justify-content: space-between;
+    width: 1fr 1fr 1fr 1fr;
+}
+.tissue-culture-images div{
+    width: 100%;
 }
 .tissue-culture-images div img{
-    height: 16vw;
+    width: 95%;
     border: 3px solid black;
-    border-radius: 10px;;
+    border-radius: 10px;
 }
 
 .navigate{
