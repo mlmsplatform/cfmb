@@ -9,21 +9,43 @@
     width: 100%;
 }
 
-.main{
+main{
 /*  background: rgb(34, 151, 214);     */
     background: white;
     padding: 10px;
 }
-.main section{
+main section{
     padding: 40px 0;
 }
-.main h1{
+main h1{
     font-size: 35px;
 }
-.main p{
+main p{
     margin: 5px 0px;
     font-size: 20px;
 }
+
+.whoweare{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    justify-content: center;
+}
+.whoweare div{
+    width: 340px;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 20px;
+    height: fit-content;
+    margin-bottom: 20px;
+    
+}
+.whoweare img{
+    width: 340px;
+    border-radius: 20px;
+
+}
+
 
 .tissue-culture-images{
     display: flex;
