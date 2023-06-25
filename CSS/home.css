@@ -15,11 +15,11 @@ main{
 main section{
     padding: 40px 0;
 }
-main h1{
+h1{
     font-size: 35px;
 }
-main p{
-    margin: 5px 0px;
+p{
+    margin: 20px 0px;
     font-size: 20px;
 }
 
@@ -35,9 +35,6 @@ main p{
     background-color: blue;
     padding: 20px;
     border-radius: 20px;
-    /* height: fit-content; */
-    /* margin-bottom: 20px; */
-    
 }
 .whoweare img{
     width: 340px;
@@ -49,9 +46,13 @@ main p{
     margin: 10px 0;
     justify-content: space-between;
     width: 1fr 1fr 1fr 1fr;
+
 }
 .what-we-do div{
     width: 100%;
+    display: flex;
+    justify-content: center;
+
 }
 .what-we-do div img{
     width: 95%;
@@ -63,6 +64,9 @@ main p{
     text-decoration: none;
     color: #fff;
     font-size: 23px;
-    padding: 10px 75px; 
+    padding: 10px 60px; 
     background-color: green;
+}
+.navigate:hover{
+    font-style: italic;
 }
