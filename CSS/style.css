@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+main{
+    background: white;
+    padding: 10px;
+}
+main section{
+    padding: 40px 0;
+    text-align: center;
+}
+.cover{
+    background-color: blue;
+}
+
+h1{
+    font-size: 65px;
+}
+h3{
+    font-size: 30px;
+    width: 360px;
+    font-weight: normal;
+}
+p{
+    margin: 20px 0px;
+    font-size: 40px;
+}
+
+.service{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 40px;
+    justify-content: center;
+}
