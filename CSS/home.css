@@ -15,10 +15,10 @@ main{
 main section{
     padding: 40px 0;
 }
-h1{
+main h1{
     font-size: 35px;
 }
-p{
+main p{
     margin: 20px 0px;
     font-size: 20px;
 }
