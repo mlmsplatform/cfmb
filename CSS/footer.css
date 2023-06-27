@@ -27,11 +27,12 @@ a:hover{
 .contact div{
     display: flex;
     align-items: center;
+    max-width: 340px;    
 }
 
 iframe{
     width: 340px;
-    min-width: 50%;
+    min-width: 100%;
     border: 3px solid black;
     border-radius: 20px;
 }
@@ -39,13 +40,15 @@ iframe{
     height: 175px;
     width: 230px;
 }
-
+.smh ul{
+    display: flex;
+    flex-wrap: wrap;
+}
 .smh ul li{
     list-style: none;
-    display: inline-block;
 }
 .smh ul li a img{
-    height: 70px;
+    width: 70px;
     border-radius: 20px;
     
 }
