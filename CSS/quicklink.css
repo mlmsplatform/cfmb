@@ -13,7 +13,7 @@
 .container li{
     list-style: none;
     padding: 10px 40px;
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
     cursor: pointer;
     margin: 2px;
@@ -23,11 +23,11 @@
     align-items: center;
     justify-content: center;
     padding: 0 10px;
-    font-size: 2.5em;
+    font-size: 2em;
     border: 1px solid black;
     margin: 5px;
-    font-size: 39px;
     border-radius: 20px;
+    font-style: italic;
 }
 .hide{
     display: none;

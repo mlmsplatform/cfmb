@@ -38,6 +38,7 @@ main p{
 }
 .whoweare img{
     width: 340px;
+    min-width: 1%;
     border-radius: 20px;
 }
 
