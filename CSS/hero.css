@@ -34,7 +34,7 @@ p{
     font-style: italic;
 }
 
-.service{
+.service-product{
     display: flex;
     flex-wrap: wrap;
     row-gap: 30px;
@@ -43,7 +43,7 @@ p{
     align-items: center;
     
 }
-.service div{
+.service-product div{
     padding: 10px;
     color: white;
     border: 1px solid black;
