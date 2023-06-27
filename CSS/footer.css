@@ -27,7 +27,7 @@ a:hover{
 .contact div{
     display: flex;
     align-items: center;
-    max-width: 340px;    
+    max-width: 340px;
 }
 
 iframe{
@@ -38,7 +38,7 @@ iframe{
 }
 .smh{
     height: 175px;
-    width: 230px;
+    width: 218px;
 }
 .smh ul{
     display: flex;
@@ -48,7 +48,7 @@ iframe{
     list-style: none;
 }
 .smh ul li a img{
-    width: 70px;
+    width: 65px;
     border-radius: 20px;
     
 }
