@@ -43,6 +43,8 @@ iframe{
 .smh ul{
     display: flex;
     flex-wrap: wrap;
+    gap: 8px;
+
 }
 .smh ul li{
     list-style: none;
