@@ -3,11 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .cover img{
     width: 100%;
 }
-
 main{
     background: white;
     padding: 10px;
@@ -22,7 +20,6 @@ main p{
     margin: 20px 0px;
     font-size: 20px;
 }
-
 .whoweare{
     display: flex;
     flex-wrap: wrap;
@@ -41,7 +38,6 @@ main p{
     min-width: 1%;
     border-radius: 20px;
 }
-
 .what-we-do{
     display: flex;
     margin: 10px 0;
@@ -53,14 +49,12 @@ main p{
     width: 100%;
     display: flex;
     justify-content: center;
-
 }
 .what-we-do div img{
     width: 95%;
     border: 3px solid black;
     border-radius: 10px;
 }
-
 .navigate{
     text-decoration: none;
     color: #fff;
@@ -70,4 +64,24 @@ main p{
 }
 .navigate:hover{
     font-style: italic;
+}
+.team{
+    display: flex;
+    column-gap: 20px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+.team div{
+    display: flex;
+    width: 340px;
+    flex-direction: column;
+    align-items: center;
+}
+.team div img{
+    width: 100%;
+    border-radius: 20px;
+}
+.team div p{
+    margin: 0;
+    padding-top: 10px;
 }

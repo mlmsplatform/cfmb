@@ -4,58 +4,21 @@
     box-sizing: border-box;
 }
 
-main{
-    background: white;
-}
-main section{
+.cover{
+    background-color: blue;
     padding: 40px 10px;
     text-align: center;
 }
-.cover{
-    background-color: blue;
-}
 
-.cover p{
-    font-size: 30px;
-}
-
-main h1{
+.cover h1{
     font-size: 55px;
 }
-main h3{
+.cover h3{
     font-size: 20px;
     font-weight: normal;
 }
-p{
+.cover p{
     margin: 20px 0px;
-    font-size: 20px;
+    font-size: 30px;
     font-style: italic;
-}
-
-.service-product{
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 30px;
-    column-gap: 40px;
-    justify-content: center;
-}
-.service-product div{
-    max-width: 340px;    
-}
-.service-product div img{
-    width: 100%;
-    border: 5px solid black;
-    border-radius: 20px;
-
-}
-.service-product div h3{
-    display: flex;
-    background-color: green;
-    padding: 10px;
-    border-radius: 20px;
-    min-height: 60px;
-    align-items: center;
-    justify-content: center;
-    color: white;
-
 }
