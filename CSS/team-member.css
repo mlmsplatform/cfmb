@@ -9,31 +9,32 @@ main h3{
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
+
 }
 .individual section{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 10px;
+    max-width:340px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.individual section:hover{
+    background-color: green;
+    color: white;
+    border-radius: 20px;
 }
 
-.individual section div{
-    width: 340px;
-    max-height: 340px;
-    overflow: hidden;
+.individual section img{
+    width: 100%;
     border: 3px solid black;
     border-radius: 20px;
-    
 }
-.individual-description{
+.individual section div{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.individual-description p{
     font-size: 25px;
-}
-.individual section div img{
-    max-height: 340px;
+    padding-bottom: 10px;
 }
