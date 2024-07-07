@@ -16,7 +16,7 @@ main h3{
     flex-direction: column;
     flex-wrap: wrap;
     gap: 10px;
-    max-width:340px;
+    width:340px;
     cursor: pointer;
     transition: 0.3s;
 }
